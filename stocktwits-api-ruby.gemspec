@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'stocktwits_api/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "stocktwits_api_ruby"
+  spec.name          = "stocktwits-api-ruby"
   spec.version       = StockTwits::VERSION
   spec.authors       = ["Winston Kotzan"]
   spec.email         = ["wak@wakproductions.com"]
